@@ -1,11 +1,16 @@
 {
   "name": "ch-4",
   "version": "1.0.0",
-  "main": "ch4.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ch4.html",
+    "build": "parcel build ch4.html"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
